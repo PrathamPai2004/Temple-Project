@@ -1,0 +1,18 @@
+.dorm-booking-container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	
+}
+.dorm-main-container{
+	height: 100vh;
+	width: 100vw;
+	background-size: contain;
+	background: url(../assets/Mangueshi-Temple-Goa-edited.jpg);
+	background-repeat: repeat;
+
+}

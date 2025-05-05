@@ -1,0 +1,22 @@
+.dorm-container {
+	display: flex;
+	overflow-x: auto;
+	white-space: nowrap;
+	scroll-behavior: smooth;
+  }
+  
+  .each-room {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+  }
+  
+  #each-room {
+	flex: 0 0 auto; /* Prevent shrinking, no growing */
+	width: 200px; /* Or whatever fixed width works */
+  }
+  #confirm-booking-container{
+	position: sticky;
+	/* background-color: burlywood; */
+	
+  }

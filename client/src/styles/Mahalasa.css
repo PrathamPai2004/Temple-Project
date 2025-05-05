@@ -1,0 +1,86 @@
+@font-face {
+	font-family: Samakaran;
+	src: url(../assets/fonts/SAMAN___.ttf);
+}
+
+body::-webkit-scrollbar{
+	visibility: hidden;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: none;
+}
+
+.mahalasa-page {
+	width: 100vw;
+	height : auto;
+	overflow-x: hidden;
+	
+}
+.overlay{
+	margin: 0;
+	height: 100vh;
+	width: 101%;
+	background-color: black;
+	position: absolute;
+	animation: set-overlay forwards 5.5s ;
+	/* opacity: 0.3; */
+}
+@keyframes set-overlay {
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0.6;
+	}
+	
+}
+
+.mahalasa-container {
+	opacity: 1;
+	
+	height: 100vh;
+	width: 100%;
+	background: url('../assets/mahalasa_portrait.jpg') no-repeat center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  #mahalasa-heading {
+	font-family: Samakaran;
+	/* letter-spacing: 2px; */
+	font-size: 4rem;
+	text-align: center;
+	color: white;
+	background: none;
+	box-shadow: none;
+	text-shadow: 2px 2px 8px black;
+	position: relative;
+	
+	/* margin-bottom: 700px; */
+	animation: heading-reveal forwards ease-in 2s;
+	/* top:1px; */
+  }
+  @keyframes heading-reveal {
+		from{
+			margin-bottom: 700px;
+			opacity: 0.3;
+		}
+		to{
+			margin-bottom: 0px;
+			opacity: 1;
+		}
+  }
+  
+  .mahalasa-main {
+	height: 1000px;
+	background-color: aqua;
+	padding: 2rem;
+  }
+  
