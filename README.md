@@ -1,22 +1,41 @@
-# Temple-Project🛕 
-Temple Dormitory Room Booking System
+🛕 Temple Dormitory & Seva Booking System
 
-This is a React + Express-based web application designed to manage room bookings for dormitories associated with a temple. It allows users to view availability and make reservations, while providing admins with tools to manage dormitory data efficiently.
+A full-stack web application for managing dormitory room bookings and Seva registrations for a temple. Users can reserve rooms, register for Sevas (religious services), and download booking receipts as PDFs. Admins can manage bookings and monitor activity.
 
 🔧 Features
 
-🏠 Three dormitories: simhapurush, graampurush, and mhaalpurush
+🏠 Dormitory Booking
 
-🛏️ 50 rooms per dormitory
+3 Dormitories:
 
-📆 Real-time room booking and availability status
+simhapurush
 
-🔒 Admin panel for room management
+graampurush
 
-⚙️ Built with:
+mhaalpurush
 
-Frontend: React (with modals, forms, and interactive UI)
+50 rooms per dormitory
 
-Backend: Express (Node.js)
+Real-time availability and booking
 
-Database: (MongoDB)
+
+
+🙏 Seva Booking
+
+View list of available Sevas
+
+Book Sevas for specific dates
+
+Input devotee details during booking
+
+Generate and download PDF receipt instantly
+
+⚙️ Tech Stack
+
+Frontend: React
+
+Backend: Node.js, Express
+
+PDF Generation: jsPDF / html2canvas
+
+Database: ( MongoDB)
