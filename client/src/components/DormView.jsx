@@ -73,7 +73,7 @@ function DormView() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/rooms/${dormName}`)
+      .get(`https://temple-project-server-3oc3.onrender.com/rooms/${dormName}`)
       .then((res) => {
         setRooms(res.data);
       })
@@ -94,7 +94,7 @@ function DormView() {
 
     const cur_date = Date.now();
     await axios
-      .post(`http://localhost:3001/rooms/books`, {
+      .post(`https://temple-project-server-3oc3.onrender.com/rooms/books`, {
         dormitory: dormName,
         roomNumber: roomNumber,
         holderName: holderName,
