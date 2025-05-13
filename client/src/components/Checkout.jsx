@@ -39,7 +39,7 @@ function Checkout() {
 
 		if (checkPhone()) {
 			if (totalAmount > 0) {
-				axios.post('http://localhost:3001/confirm-seva', { seva_name, totalAmount, userName, phoneNum })
+				axios.post('https://temple-project-server-3oc3.onrender.com/confirm-seva', { seva_name, totalAmount, userName, phoneNum })
 					.then((result) => {
 						if (result.data.status === 'success') {
 							console.log('Seva booked: ', result);
