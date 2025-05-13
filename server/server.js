@@ -248,3 +248,8 @@ app.listen(PORT,async (req,res)=>{
 	// seedRooms()
 
 })
+
+app.get('/',(req,res)=>{
+	console.log("Server succesfully hit the / route")
+	res.send("Successfully runnninf the server ")
+})
